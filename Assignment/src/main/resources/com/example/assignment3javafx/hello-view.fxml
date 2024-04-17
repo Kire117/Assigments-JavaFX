@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.assignment3javafx.HelloController">
+  <Label text="Convertion Calculator"/>
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+  </padding>
+  <Label text="What would you like to convert?"/>
+  <TextField fx:id="userValue" />
+  <RadioButton text="LB to KG" fx:id="rb1"/>
+  <RadioButton text="KG to LB" fx:id="rb2"/>
+  <RadioButton text="Fah to Cel" fx:id="rb3"/>
+  <RadioButton text="Cel to Fah" fx:id="rb4"/>
+  <Button text="Convert" onAction="#getConvertion"/>
+  <Label fx:id="results"/>
+
+  <Text text="Made by Andres Julian Hernandez Perez and Erick Alejandro Ovando Perez"/>
+</VBox>
