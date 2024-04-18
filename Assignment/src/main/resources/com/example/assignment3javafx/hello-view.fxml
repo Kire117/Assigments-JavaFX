@@ -16,7 +16,7 @@
   </padding>
   <Label text="What would you like to convert?"/>
   <TextField fx:id="userValue" />
-  <RadioButton text="LB to KG" fx:id="rb1"/>
+  <RadioButton text="LB to KG" fx:id="rb1" selected="true"/>
   <RadioButton text="KG to LB" fx:id="rb2"/>
   <RadioButton text="Fah to Cel" fx:id="rb3"/>
   <RadioButton text="Cel to Fah" fx:id="rb4"/>
